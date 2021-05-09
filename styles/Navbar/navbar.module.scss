@@ -1,3 +1,31 @@
 .container{
     padding: 0px 100px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.div{
+    display: inline;
+}
+.ul{
+    display: inline-flex;
+    list-style: none;
+    width: 200px;
+    justify-content: space-around;
+}
+.li{
+    padding: 0px 50px;
+    position: relative;
+    cursor: pointer;
+    transition: border .2s ease-in-out;
+
+    &:hover::after{
+        content: '';
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        width: 100%;
+        border: 2px solid #0070f3;
+    }
+   
 }
