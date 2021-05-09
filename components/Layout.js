@@ -1,10 +1,13 @@
-import style from '../styles/Navbar/navbar.module.css'
+import style from '../styles/Navbar/layout.module.css'
 
-const Navbar = ({ children }) => {
+import Navbar from './Navbar'
+
+
+const Layout = ({ children }) => {
     return (
         <div>
             <nav className={style.navbar}>
-            <h1>Navbar</h1>
+            <Navbar />
             </nav>
 
             <main>
@@ -14,4 +17,5 @@ const Navbar = ({ children }) => {
     )
 }
 
-export default Navbar
+export default Layout
+
