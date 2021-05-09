@@ -6,6 +6,9 @@ function Home() {
 
   return (
     <>
+    <Head>
+      <title>Home</title>
+    </Head>
     </>
   )
 }
