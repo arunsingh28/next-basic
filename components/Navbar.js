@@ -1,9 +1,9 @@
-
+import style from '../styles/Navbar/navbar.module.css'
 
 const Navbar = () => {
     return (
-        <div>
-            <h1>Navbar</h1>
+        <div className={style.container}>
+            <h1>Next.js</h1>
         </div>
     )
 }

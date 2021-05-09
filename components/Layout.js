@@ -1,4 +1,4 @@
-import style from '../styles/Navbar/layout.module.css'
+import style from '../styles/Layout/layout.module.css'
 
 import Navbar from './Navbar'
 
@@ -10,7 +10,7 @@ const Layout = ({ children }) => {
             <Navbar />
             </nav>
 
-            <main>
+            <main className={style.container}>
                 {children}
             </main>
         </div>
