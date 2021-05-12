@@ -13,6 +13,7 @@ const Layout = ({ children }) => {
             <main className={style.container}>
                 {children}
             </main>
+            
         </div>
     )
 }
