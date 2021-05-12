@@ -34,16 +34,16 @@ export const getServerSideProps = async (context) => {
 }
 
 // it is more fast
-export const getStaticPaths = async () => {
-    const res = await fetch(`https://jsonplaceholder.typicode.com/posts`)
-    const articals = await res.json()
-    const id = articals.map((ar) => ar.id)
-    const paths = id.map(id => ({ params: { id: id.toString() } }))
+// export const getStaticPaths = async () => {
+//     const res = await fetch(`https://jsonplaceholder.typicode.com/posts`)
+//     const articals = await res.json()
+//     const id = articals.map((ar) => ar.id)
+//     const paths = id.map(id => ({ params: { id: id.toString() } }))
 
-    return {
-        paths,
-        fallback: false
-    }
-}
+//     return {
+//         paths,
+//         fallback: false
+//     }
+// }
 
 export default Posts
