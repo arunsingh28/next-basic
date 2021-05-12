@@ -5,9 +5,9 @@ const Artical = ({artical}) => {
     return (
         <div>
             {
-                artical.map((i, index) =>
+                artical.data.map((i, index) =>
                     <Link href={'posts/'+i.id}>
-                    <div className={style.card} key={Math.random()}>{index + 1}. {i.title}</div></Link>
+                    <div className={style.card} key={Math.random()}>{index + 1}. {i.name}</div></Link>
                 )
             }
         </div>

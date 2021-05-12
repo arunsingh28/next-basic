@@ -24,9 +24,8 @@ export default function Home({artical}) {
 }
 
 // fetch data
-
 export const getStaticProps = async () => {
-  const res = await fetch(`https://jsonplaceholder.typicode.com/posts?_limit=6`)
+  const res = await fetch(`https://work-spacee.herokuapp.com/all`)
   const artical = await res.json()
 
   return {

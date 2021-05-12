@@ -24,7 +24,7 @@ const Posts = ({ artical }) => {
 }
 
 export const getServerSideProps = async (context) => {
-    const res = await fetch(`https://jsonplaceholder.typicode.com/posts/${context.params.id}`)
+    const res = await fetch(`http://localhost:3000/api/artical/${context.params.id}`)
     const artical = await res.json()
     return {
         props: {
