@@ -1,4 +1,4 @@
-import style from '../styles/Layout/layout.module.css'
+import style from '../styles/Layout/global.module.scss'
 
 import Navbar from './Navbar'
 

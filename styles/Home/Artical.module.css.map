@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,KAAK,CAAA;EACD,OAAO,EAAE,SAAS;EAClB,MAAM,EAAE,QAAQ;EAChB,KAAK,EAAE,OAAO;EACd,aAAa,EAAE,GAAG;EAClB,gBAAgB,EAAE,4CAA4C;EAC9D,UAAU,EAAE,eAAe;EAC3B,MAAM,EAAE,OAAO;CAMlB;;AAbD,AASI,KATC,AASA,MAAM,CAAA;EACH,gBAAgB,EAAE,IAAI;EACtB,MAAM,EAAE,GAAG,CAAC,KAAK,CAAC,OAAiB;CACtC",
-    "sources": [
-        "Artical.module.scss"
-    ],
-    "names": [],
-    "file": "Artical.module.css"
-}

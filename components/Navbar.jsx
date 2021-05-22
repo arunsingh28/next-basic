@@ -21,14 +21,5 @@ const Navbar = () => {
     )
 }
 
-/* 
-    for inline style
-    <style jsx>
-    .className{
-        css propertis...
-    }
-    </style>
-*/
-
 
 export default Navbar
