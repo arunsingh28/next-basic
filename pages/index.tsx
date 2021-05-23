@@ -1,15 +1,12 @@
-import Head from 'next/head'
 import style from '../styles/Home.module.scss'
 import Link from 'next/link'
 
-require('dotenv').config()
 
 // const CONTENT_API_KEY = "867749f709240b81f9ddce9d6e"
 // const BLOG_URL = "https://next-ghost-v1.herokuapp.com"
 
-const { CONTENT_API_KEY, BLOG_URL } = process.env
+const { CONTENT_API_KEY , BLOG_URL } = process.env
 
-console.log(CONTENT_API_KEY)
 
 type Post = {
   title: String,

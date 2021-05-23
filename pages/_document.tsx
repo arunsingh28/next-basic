@@ -6,12 +6,12 @@ export default class CustomDocument extends Document {
         return (
             <Html>
                 <Head>
-                    
+
                 </Head>
                 <body>
                     <Main />
                 </body>
-                <NextScript/>
+                <NextScript />
             </Html>
         )
 
