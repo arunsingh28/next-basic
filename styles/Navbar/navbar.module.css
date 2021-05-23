@@ -23,7 +23,7 @@
 }
 
 .li {
-  padding: 0px 50px;
+  padding: 0px 30px;
   position: relative;
   cursor: pointer;
   -webkit-transition: border .2s ease-in-out;
